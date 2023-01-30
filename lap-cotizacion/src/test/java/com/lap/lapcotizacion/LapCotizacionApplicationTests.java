@@ -1,10 +1,10 @@
-package com.cotizacion.demo;
+package com.lap.lapcotizacion;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class LapCotizacionApplicationTests {
 
 	@Test
 	void contextLoads() {
