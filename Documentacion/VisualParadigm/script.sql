@@ -1,9 +1,11 @@
 CREATE USER 'lap'@'localhost' IDENTIFIED BY 'lap';
+CREATE USER 'cesarpa'@'localhost' IDENTIFIED BY 'lap';
 
 GRANT ALL PRIVILEGES ON * . * TO 'lap'@'localhost';
 GRANT ALL PRIVILEGES ON * . * TO 'cesarpa'@'localhost';
 
 ALTER USER 'lap'@'localhost' IDENTIFIED WITH mysql_native_password BY 'lap';
+ALTER USER 'cesarpa'@'localhost' IDENTIFIED WITH mysql_native_password BY 'cesarpa';
 
 
 
